@@ -1,0 +1,11 @@
+numpy
+pandas
+sqlalchemy
+mysqlclient
+xlrd
+xlwt
+bs4
+matplotlib
+seaborn
+statsmodels
+pyflux
