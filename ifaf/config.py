@@ -9,7 +9,6 @@
 """
 import logging
 from logging.config import dictConfig
-from celery.schedules import crontab
 
 
 # Use a Class-based config to avoid needing a 2nd file
@@ -19,7 +18,7 @@ class ConfigClass(object):
     DB_SCHEMA_MD = 'md_integration'
     DB_URL_DIC = {
         # local
-        DB_SCHEMA_MD: f"mysql://m*:****@localhost/{DB_SCHEMA_MD}?charset=utf8"
+        DB_SCHEMA_MD: f"mysql://m*:***@localhost/{DB_SCHEMA_MD}?charset=utf8"
     }
 
     # log settings
