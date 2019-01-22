@@ -111,3 +111,4 @@ venv.bak/
 *.csv
 *.xls
 *.xlsx
+/ifaf/private/
