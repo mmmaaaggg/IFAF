@@ -18,7 +18,7 @@ import json
 from datetime import date, datetime, timedelta
 from sqlalchemy.ext.compiler import compiles
 from sqlalchemy.sql.expression import Insert
-from ibats_common.utils.mess import date_2_str
+from ifaf.utils.mess import date_2_str
 import logging
 from sqlalchemy import create_engine
 
