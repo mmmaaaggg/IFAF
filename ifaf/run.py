@@ -47,7 +47,13 @@ def factor_analysis(df: pd.DataFrame, target_label, shift_num=-1, params: dict={
     return result_dic
 
 
+def show_ana_result(result_dic: dict):
+    for num, (item, result) in enumerate(result_dic.items()):
+        print(f"{num}) {item}:\n{result}")
+
+
 def run():
     instrument_type = "RU"
     df = get_df(instrument_type)
     result_dic = factor_analysis(df, target_label='pct_change', )
+    show_ana_result(result_dic)
